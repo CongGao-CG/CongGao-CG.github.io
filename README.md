@@ -1,1 +1,1 @@
-Please click https://conggao-cg.github.io/
+Please CLICK https://conggao-cg.github.io/
