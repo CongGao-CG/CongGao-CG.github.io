@@ -1,5 +1,15 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-<div id="CV_Cong_Gao_November2026"></div>
-<script>
-PDFObject.embed("CV_Cong_Gao_November2026.pdf", "#CV_Cong_Gao_November2026");
-</script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cong Gao — Curriculum Vitae</title>
+  </head>
+  <body>
+    <p><a id="cv" href="CV_Cong_Gao_November2026.pdf">Open Cong Gao’s CV (PDF)</a></p>
+    <script>
+      // A standalone PDF lets Safari's Find command search the document.
+      window.location.replace(document.getElementById("cv").href + window.location.hash);
+    </script>
+  </body>
+</html>
